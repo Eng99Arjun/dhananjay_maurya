@@ -10,7 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/react-fontawesome": "github:fortawesome/react-fontawesome",
     "@tailwindcss/vite": "^4.0.17",
+    "fontawesome": "^5.6.3",
+    "fortawesome": "^0.0.1-security",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
