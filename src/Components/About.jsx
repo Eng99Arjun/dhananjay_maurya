@@ -1,7 +1,7 @@
 export default function About(){
     return <div className="bg-gray-800 text-white ">
         <div className="ml-10 mr-10 bg-gray-800 align-middle">
-            <div className="flex flex-row   ">
+            <div className="flex flex-row justify-evenly   ">
             <div className="text-blue-200 text-3xl font-bold">
                 about
             </div>
@@ -15,18 +15,18 @@ export default function About(){
               accusamus consequatur, optio eius recusandae reiciendis, ab natus distinctio nobis asperiores!        
         </div>
 
-             <div>
-                <div>
-                    <div>Frontend</div>
-                    <div>60+ Hours Experience </div>
+             <div className="flex flex-row mt-10 mb-10 justify-evenly">
+                <div className="flex flex-col ">
+                    <div className="text-4xl font-semibold mb-1">Front-End</div>
+                    <div className="underline">1 Year Experience </div>
                 </div>
-                <div>
-                    <div>Backend</div>
-                    <div></div>
+                <div className="flex flex-col ">
+                    <div className="text-4xl font-semibold mb-1">Back-End</div>
+                    <div className="underline">1 Year Experience </div>
                 </div>
-                <div>
-                    <div>Frontend</div>
-                    <div>60+ Hours Experience </div>
+                <div className="flex flex-col ">
+                    <div className="text-4xl font-semibold mb-1">Application Support</div>
+                    <div className="underline">1 Year Experience </div>
                 </div>
              </div>
         </div>
